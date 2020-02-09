@@ -1,5 +1,4 @@
     * {
-        background-color: white;
         font-family: Arial, sans-serif;
         box-sizing: border-box;
     }
@@ -53,7 +52,6 @@
         text-indent: 10px;
         font-size: 1em;
         color: #333;
-        background: #fff;
         border: solid 1px #d9d9d9;
         border-top: solid 1px #c0c0c0;
         border-right: none;
@@ -63,7 +61,16 @@
         box-shadow: 1px 1px 1px 1px;
     }
     
-    .footer * {
-        background-color: red;
-        height: 40px;
+    #footer-wrapper {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        border: 1px solid #e7e7e7;
+        background-color: #f3f3f3;
+        margin: auto;
+        padding-right: 20px;
+    }
+    
+    #footer li {
+        display: inline;
     }
