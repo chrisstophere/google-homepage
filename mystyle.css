@@ -1,25 +1,32 @@
-body {
+* {
     background-color: white;
     font-family: Arial, sans-serif;
+    box-sizing: border-box;
 }
 
-ul {
-    margin: 7px 0 0 10px;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 li {
     display: inline-block;
-    padding-top: 15px;
-    padding-right: 0%;
-    padding-bottom: 0%;
-    padding-left: -0%;
-    margin-left: -20px;
-    color: #000;
-    opacity: 0.75;
+    margin: 0px;
+    padding: 0px;
 }
 
 li a {
-    text-decoration: none;
-    display: inline-block;
     font-size: 13px;
+    padding: 0px 0px 0px 15px;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+#right-nav {
+    margin-top: 0px;
+    padding: 10px 5px;
 }
