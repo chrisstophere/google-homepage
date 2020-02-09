@@ -40,13 +40,14 @@
         margin: auto;
         position: relative;
         padding-top: 08%;
+        padding-bottom: 40px;
     }
     
     #search-box {
         display: inline-block;
         box-sizing: content-box;
         border-radius: 50px;
-        width: 300px;
+        width: 35%;
         height: 40px;
         line-height: 27px;
         text-indent: 10px;
@@ -59,5 +60,10 @@
     }
     
     input:hover {
-        box-shadow: 05px 0px;
+        box-shadow: 1px 1px 1px 1px;
+    }
+    
+    .footer * {
+        background-color: red;
+        height: 40px;
     }
