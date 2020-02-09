@@ -30,3 +30,10 @@ li a:hover {
     margin-top: 0px;
     padding: 10px 5px;
 }
+
+#google-image {
+    display: block;
+    margin: auto;
+    position: relative;
+    padding-top: 10%;
+}
