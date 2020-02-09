@@ -1,76 +1,91 @@
-    * {
-        font-family: Arial, sans-serif;
-        box-sizing: border-box;
-    }
-    
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    li {
-        display: inline-block;
-        margin: 0px;
-        padding: 0px;
-    }
-    
-    li a {
-        font-size: 13px;
-        padding: 0px 0px 0px 15px;
-        text-decoration: none;
-    }
-    
-    li a:hover {
-        text-decoration: underline;
-    }
-    
-    #right-nav {
-        margin-top: 0px;
-        padding: 10px 5px;
-    }
-    
-    #search-wrapper {
-        text-align: center;
-    }
-    
-    #google-image {
-        display: block;
-        margin: auto;
-        position: relative;
-        padding-top: 08%;
-        padding-bottom: 40px;
-    }
-    
-    #search-box {
-        display: inline-block;
-        box-sizing: content-box;
-        border-radius: 50px;
-        width: 35%;
-        height: 40px;
-        line-height: 27px;
-        text-indent: 10px;
-        font-size: 1em;
-        color: #333;
-        border: solid 1px #d9d9d9;
-        border-top: solid 1px #c0c0c0;
-        border-right: none;
-    }
-    
-    input:hover {
-        box-shadow: 1px 1px 1px 1px;
-    }
-    
-    #footer-wrapper {
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        border: 1px solid #e7e7e7;
-        background-color: #f3f3f3;
-        margin: auto;
-        padding-right: 20px;
-    }
-    
-    #footer li {
-        display: inline;
-    }
+                                                    * {
+                                                    font-family: Arial, sans-serif;
+                                                    box-sizing: border-box;
+                                                }
+                                                
+                                                header {
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                    align-items: center;
+                                                }
+                                                
+                                                li {
+                                                    display: inline-block;
+                                                    margin: 0px;
+                                                    padding: 0px;
+                                                }
+                                                
+                                                li a {
+                                                    font-size: 13px;
+                                                    padding: 0px 0px 0px 15px;
+                                                    text-decoration: none;
+                                                }
+                                                
+                                                li a:hover {
+                                                    text-decoration: underline;
+                                                }
+                                                
+                                                #right-nav {
+                                                    margin-top: 0px;
+                                                    padding: 10px 5px;
+                                                }
+                                                
+                                                #search-wrapper {
+                                                    text-align: center;
+                                                }
+                                                
+                                                #google-image {
+                                                    display: block;
+                                                    margin: auto;
+                                                    position: relative;
+                                                    padding-top: 08%;
+                                                    padding-bottom: 40px;
+                                                }
+                                                
+                                                #search-box {
+                                                    display: inline-block;
+                                                    box-sizing: content-box;
+                                                    border-radius: 50px;
+                                                    width: 35%;
+                                                    height: 40px;
+                                                    line-height: 27px;
+                                                    text-indent: 10px;
+                                                    font-size: 1em;
+                                                    color: #333;
+                                                    border: solid 1px #d9d9d9;
+                                                    border-top: solid 1px #c0c0c0;
+                                                    border-right: none;
+                                                }
+                                                
+                                                input:hover {
+                                                    box-shadow: 1px 1px 1px 1px;
+                                                }
+                                                /** This section took me on and off the whole day to find\figure out on the web and
+        thru experimenting on codepen...this shit better get easier!!!
+    **/
+                                                
+                                                #footer-wrapper {
+                                                    position: fixed;
+                                                    bottom: 0;
+                                                    width: 100%;
+                                                    border: 1px solid #e7e7e7;
+                                                    background-color: #f3f3f3;
+                                                    margin: auto;
+                                                    padding-right: 20px;
+                                                }
+                                                
+                                                #footer li {
+                                                    display: inline;
+                                                }
+                                                
+                                                .button {
+                                                    background: #f3f3f3;
+                                                    border: none;
+                                                    border-radius: 5%;
+                                                    font-size: 15px;
+                                                    padding: 10px 24px;
+                                                    ;
+                                                }
+                                                
+                                                .button:hover {
+                                                    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
